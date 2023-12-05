@@ -1,0 +1,159 @@
+
+body, html{
+	font-size:16px;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	line-height:1.8em;
+	color:#666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9{
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	background-attachment:fixed;
+	width: 100%;
+
+}
+	
+.pimg1{
+	background-image:url('../img/nottingham.jpg');
+	
+}
+
+.pimg2{
+	background-image:url('../img/Estoril.jpg');
+	
+}
+
+.pimg3{
+	background-image:url('../img/image1.jpg');
+	
+}
+.pimg4{
+	background-image:url('../img/mentor.jpg');
+	
+}
+.pimg5{
+	background-image:url('../img/inspiring futures.jpg');
+	
+}
+.pimg6{
+	background-image:url('../img/goalsetting.png');
+	
+}
+.pimg7{
+	background-image:url('../img/image7.jpg');
+	
+}
+.pimg8{
+	background-image:url('../img/image6.jpg');
+	
+}
+.pimg9{
+	background-image:url('../img/sports.png');
+	
+}
+.section{
+	text-align:center;
+	padding:50px 80px;
+}
+
+.section-light{
+	background-color:#f4f4f4;
+	color:#666;
+}
+.section-dark{
+	background-color:#f4f4f4;
+}
+
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+}
+
+.ptext .border{
+	background-color:#111;
+	color:#fff;
+}
+
+.ptext .border.trans{
+	background-color:transparent;
+}
+
+.navbar{
+	background-color: #777;
+	width: 100%;
+}
+
+.navbar ul{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.navbar li{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.navbarMeio{
+	width: 30%;
+	display: inline-block;
+}
+.home{
+	font-size: 27px;
+	width: 100%;
+}
+
+.home p{
+	height: auto;
+	display: initial;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	border:5px solid white;
+	padding: 20px;
+}
+
+@media(max-width: 900px){
+	.navbarMeio{
+		width: 100%;
+	}
+	.ptext{
+		font-size: 18px;
+	}
+}
+
+@media(max-width: 600px){
+
+	.home p{
+		height: auto;
+		display: block;
+		width: auto;
+		margin: 0 auto;
+		text-align: center;
+		border:5px solid white;
+	}
+}
+
+	
+	
+	
+	
+
+	
+	
+
+
+
